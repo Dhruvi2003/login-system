@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(-90deg,#7f379b,#ffa26c);
+    /* background-color:#cee0e6; */
+    font-family: Raleway;
+}
+
+#outer-div{
+    margin: auto;
+    height:100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#inner-div{
+    margin: auto;
+    width: 50%;
+    background-color: rgb(173, 232, 247);
+    border: 5px solid black;
+    border-radius: 10px;
+    height:50vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.iconBox {
+    height: 35px;
+    width: 40px;
+    line-height: 38px;
+    text-align: center;
+    background: #ff6600;
+  }
+#headingtxt{
+    position: relative;
+    /* left: 80px; */
+    top: -40px;
+    font-size: 70px;
+    text-align: center;
+    font-family: Raleway;
+    margin-bottom: -25px;
+    font-size: 70px;
+    text-align: center;
+    font-family: Raleway;
+}
+
+#profiletxt{
+    font-size: 20px;
+    text-align: center;
+    font-family: Raleway;
+}
+
+#spanbtn{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#btn{
+    padding: 10px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 250px;
+    font-size: 18px;
+    font-family: Raleway;
+    background: linear-gradient(-90deg,#7f379b,#ffa26c);
+    /* background-color: #cee0e6; */
+    border: 2px solid black;
+    border-radius:5px;
+    cursor: pointer;
+}

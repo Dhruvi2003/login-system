@@ -1,0 +1,16 @@
+body{
+    background: linear-gradient(-90deg,#7f379b,#ffa26c);
+    /* background-color:#cee0e6; */
+    font-family: Raleway;
+}
+
+#main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-table{
+    background-color:white;
+    font-size: 30px;
+}
